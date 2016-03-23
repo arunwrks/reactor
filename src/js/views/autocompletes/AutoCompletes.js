@@ -6,12 +6,12 @@ export default class AutoCompletes extends React.Component {
 	render() {
 		let url = `http://api.themoviedb.org/3/search/tv?api_key=0a85bfad58bfced1b7e4d5209aedd35b`;
 		const items = [
-			{ key: "k1", value: "Mandar Belnekar" },
-			{ key: "k2", value: "Sriram Vaidyanathan" },
-			{ key: "k3", value: "Arun Kumar" },
-			{ key: "k4", value: "Sachin Kumbharkar" },
-			{ key: "k5", value: "Shailendra Pore" },
-			{ key: "k6", value: "Aditya Shanbhag" }
+			{ key: "k1", value: "optin 1" },
+			{ key: "k2", value: "option 2" },
+			{ key: "k3", value: "option 3" },
+			{ key: "k4", value: "optin 4" },
+			{ key: "k5", value: "option 5" },
+			{ key: "k6", value: "option 6" }
 		];
 		return (
 			<div className="col-md-9">
