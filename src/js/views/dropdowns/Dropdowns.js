@@ -21,12 +21,7 @@ export default class Dropdowns extends React.Component {
 			{ header: "Technology" },
 			{ key: "K4", value: "Tata Consultancy Service" }, 
 			{ key: "K5", value: "Cognizant Technologies" }, 
-			{ key: "K6", value: "Infosys" },
-			{ header: "Investment Banks" },
-			{ key: "K7", value: "JP Morgan & Chase" }, 
-			{ key: "K8", value: "Bank of America" }, 
-			{ key: "K9", value: "Morgan Stanley" },
-			{ key: "K10", value: "Goldman Sachs" }
+			{ key: "K6", value: "Infosys" }
 		];
 		const url = `http://api.themoviedb.org/3/tv/airing_today?api_key=0a85bfad58bfced1b7e4d5209aedd35b`;
 		return (
